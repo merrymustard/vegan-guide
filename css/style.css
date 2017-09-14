@@ -1,0 +1,23 @@
+
+li{
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+}
+
+nav{
+	background-color: #7B7938;
+	color: white;
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.logo{
+	height: 180px;
+	padding-top: 10px;
+
+}
