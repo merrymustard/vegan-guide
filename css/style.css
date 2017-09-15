@@ -1,3 +1,12 @@
+.logo{
+	height: 140px;
+	padding-top: 0px;
+	margin-top: 0px;
+
+}
+#menu{
+	padding: 0px;
+}
 
 li{
 	list-style: none;
@@ -6,9 +15,10 @@ li{
 }
 
 nav{
-	background-color: #7B7938;
 	color: white;
-
+	margin:10px;
+    padding:0px;
+    text-align:center;
 }
 
 a{
@@ -16,8 +26,45 @@ a{
 	color: white;
 }
 
-.logo{
-	height: 180px;
-	padding-top: 10px;
-
+a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: ;
 }
+a:active {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+body {
+    margin:10px 0; 
+    padding:0;
+    background-color: #7B7938;
+}
+
+article{
+	padding:15px;
+}
+
+.dash-div{
+	display: inline-block;
+	text-align: center;
+	padding: 0px;
+	margin-top: 15px;
+	width: 120px;
+	float: left;
+}
+
+.dash-images{
+	height: 100px;
+	padding: 0px 10px;
+	display: inline-block;
+}
+
+.dash-text{
+	padding: 10px 0;
+	margin: 0px;
+	color: pink;
+}
+
