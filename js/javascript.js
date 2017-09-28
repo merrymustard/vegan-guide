@@ -25,7 +25,7 @@ aButtonVar.onclick = function (){
 		alert("mail incorrect");
 		return false;
 
-	} else if (password ! == myPassword){
+	} else if (password != myPassword){
 
 
 
@@ -33,5 +33,8 @@ aButtonVar.onclick = function (){
 		alert("pass incorrect");
 		return false;
 	}
-	else
+
+
+
+
 	

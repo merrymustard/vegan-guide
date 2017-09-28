@@ -8,36 +8,46 @@
 </head>
 <body>
 
-	<nav>
+	<nav id="myHeader">
 		<img src="img/logo.png" alt="logo" class="logo">
+
 			<ul id="menu">
-			  <li><a href="vegindex.html">Home</a></li>
-			  <li><a href="#sec2">Fruits</a></li>
-			  <li><a href="#sec3">Seeds</a></li>
-			  <li><a href="#sec4">Superfoods</a></li>
+			<li><a href="vegindex.html">Home</a></li>
+			  <li><a href="seeds.html">Cereals</a></li>
+			  <li><a href="fruits.html">Fruits</a></li>
+			  <li><a href="legumes.html">Legumes</a></li>
+			  <li><a href="#sec4">Nuts</a></li>
 			  <li><a href="#sec5">Vegetables</a></li>
 			</ul>
 	</nav>
 
 <article>
 	<div class="dash-div">
-		<img src="img/apple.png" alt="apple" class="dash-images">
-		<p class="dash-text">Apple</p>
+		<a onmouseover="change('appleB.jpg');" onmouseout="changeReset();" href="#" >
+			<img src="img/apple.png" alt="" class="dash-images">
+				<p class="dash-text">Apple</p>
+		</a>
 	</div>
 
 	<div class="dash-div">
-		<img src="img/avocado.png" alt="avocado" class="dash-images">
-		<p class="dash-text">Avocado</p>
+		<a onmouseover="change('avocadoB.jpg');" onmouseout="changeReset();" href="#" >
+			<img src="img/avocado.png" alt="" class="dash-images">
+				<p class="dash-text">Avocado</p>
+		</a>
 	</div>
 
 	<div class="dash-div">
-		<img src="img/apricot.png" alt="apricot" class="dash-images">
-		<p class="dash-text">Apricot</p>
+		<a onmouseover="change('apricotsB.jpg');" onmouseout="changeReset();" href="">
+			<img src="img/apricot.png" alt="apricot" class="dash-images">
+				<p class="dash-text">Apricot</p>
+		</a>
 	</div>
 
 	<div class="dash-div">
-		<img src="img/banana.png" alt="banana" class="dash-images">
-		<p class="dash-text">Banana</p>
+		<a onmouseover="change('bananaB.png');" onmouseout="changeReset();" href="">
+			<img src="img/banana.png" alt="banana" class="dash-images">
+				<p class="dash-text">Banana</p>
+		</a>
 	</div>
 
 	<div class="dash-div">
@@ -45,10 +55,6 @@
 		<p class="dash-text">Blackberrie</p>
 	</div>
 
-	<div class="dash-div">
-		<img src="img/blackcurrant.png" alt="blackcurrant" class="dash-images">
-		<p class="dash-text">Blackcurrant</p>
-	</div>
 	
 	<div class="dash-div">
 		<img src="img/blueberrie.png" alt="blueberrie" class="dash-images">
@@ -61,8 +67,12 @@
 	</div>
 
 	<div class="dash-div">
-		<img src="img/currant.png" alt="currant" class="dash-images">
-		<p class="dash-text">Currant</p>
+		<img src="img/coconut.png" alt="coconut" class="dash-images">
+		<p class="dash-text">Coconut</p>
+	</div>
+	<div class="dash-div">
+		<img src="img/dragonfruit.png" alt="dragonfruit" class="dash-images">
+		<p class="dash-text">Dragonfruit</p>
 	</div>
 
 	
@@ -72,7 +82,8 @@
 </article>
 	
 
-	<script src=""></script>
+	<script src="js/veganjava.js"></script>
+
 
 
 </body>
